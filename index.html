@@ -1,20 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Email Account Registration</title>
 </head>
 <body>
-    <figure>
-        <img src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/220px-Italy_-_Pisa_-_Leaning_Tower.jpg" decoding="async" width="220" height="307" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/330px-Italy_-_Pisa_-_Leaning_Tower.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Italy_-_Pisa_-_Leaning_Tower.jpg/440px-Italy_-_Pisa_-_Leaning_Tower.jpg 2x" width="3257" height="4544">
-        <figcaption>Leaning Tower of Pisa</figcaption>
-    </figure>
-    <audio controls>
-        <source src="audio.mp3" type="audio/mpeg">
-    </audio>
-    <video width="320" height="240" controls>
-        <source src="video.mp4" type="video/mp4">
-    </video>    
+    <h1>Email Account Registration</h1>
+
+    <!-- Registration Form -->
+    <form id="registrationForm" action="confirmation.html" method="post">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <br>
+
+        <input type="submit" value="Create Account">
+    </form>
 </body>
 </html>

@@ -81,6 +81,7 @@ a {
 .content h1 {
     margin-block: 1px;
     text-align: left;
+    font-weight:400;
     padding-top: 20px;
 }
 

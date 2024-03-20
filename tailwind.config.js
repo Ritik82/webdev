@@ -2,7 +2,11 @@
 module.exports = {
   content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'anek':['Anek Latin','sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
